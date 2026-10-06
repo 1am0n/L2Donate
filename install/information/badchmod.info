@@ -1,0 +1,2 @@
+Sistema būtinai turi įrašyti jūsų MySQL prisijungimo duomenis į config.php failą, kad vėliau prireikus galėtų juos naudoti.
+Jei config.php failui nesuteikėte 777 teisių, tada į jį nebus galima įrašinėti, todėl jūs gaunate šią klaidą, norint sėkmingai tęsti sistemos diegimą suteikite failui config.php 777 teises (chmod).

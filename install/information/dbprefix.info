@@ -1,0 +1,4 @@
+Prefixai tai prierašai prie duomenų bazės lentelių, jei prefixas sunkus, tai gerokai padidina jūsų saugumą jei kartais būtų įsilaužta į jūsų MySQL duomenų bazę.
+Prefixas būtinai turi turėti tokį simbolį _
+<br/>
+Pvz.: donate_ arba do846nate_

@@ -1,0 +1,440 @@
+body
+{
+	padding-top: 20px;
+	background-color: #e7e7e7;
+}
+
+a 
+{
+	color: #0a232e;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: #bc8423;
+	text-decoration: none;
+}
+
+a.lk
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.lk:hover
+{
+	color: #9fd2ea;
+	text-decoration: underline;
+}
+
+#box
+{
+	width: 900px;
+}
+
+#character 
+{
+	background-image: url('images/user_top.png');
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 100px;
+}
+
+#char_choose
+{
+	padding-top: 55px;
+	float: left;
+	padding-left: 70px;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+#other_info
+{
+	padding-top: 55px;
+	font-size: 12px;
+	font-family: verdana;
+	color: ffffff;
+}
+
+#header
+{
+	background-image: url('images/header.png');
+	background-repeat: no-repeat;
+	width: 762px;
+	height: 194px;
+}
+
+#headtx
+{
+	position: absolute;
+	padding-top: 126px;
+	padding-left: 215px;
+	font: 12px arial;
+	color: #FFFFFF;
+}
+
+#buttons
+{
+	padding-top: 150px;
+	text-align: left;
+	margin-left: 215px;
+}
+
+#main
+{
+	background-image: url('images/main.png');
+	background-repeat: repeat-y;
+	width: 706px;
+	font-size: 12px;
+	font-family: verdana;
+	text-align: left;
+	margin-right: 56px;
+}
+
+#donation
+{
+	background-image: url('images/donate_son.png');
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 299px;
+	position: absolute;
+	margin-left: 815px;
+	margin-top: 200px;
+}
+
+#footer
+{
+	background-image: url('images/footer.png');
+	background-repeat: no-repeat;
+	width: 706px;
+	height: 68px;
+	margin-right: 56px;
+}
+
+#seniukas
+{
+	background-image: url('images/seniukas.png');
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 333px;
+	float: left;
+	margin-left: 51px;
+	margin-top: 55px;
+}
+
+table.tbl1
+{
+	padding-right: 50px;
+	background-color: #fff;
+	border: 1px solid #aeaeae;
+}
+
+table.tbl2
+{
+	padding-right: 50px;
+}
+
+table.tbl3
+{
+	padding-right: 50px;
+}
+
+table.makro
+{
+	font: 12px verdana;
+	padding: 5px;
+	background-color: #2b6f92;
+	color: #fff;
+	width: 300px;
+	border: 1px solid #0e3d55;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.makrof1
+{
+	position: absolute;
+	margin-left: 180px;
+	padding: 10px;
+}
+
+.makrof2
+{
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 30px;
+}
+
+.makros
+{
+	float: left;
+}
+
+.makro_button
+{
+	height: 50px;
+	width: 150px;
+	background-color: #f3f3f3;
+	border: 1px solid #0e3d55;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.makro_button:hover
+{
+	background-color: #bad0da;
+	border: 1px solid #0e3d55;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+#choose_shop
+{
+	background-image: url('images/choose.png');
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 220px;
+	position: absolute;
+}
+
+#choose_enchant
+{
+	background-image: url('images/choose.png');
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 340px;
+	position: absolute;
+}
+
+#choose_cs_items
+{
+	background-image: url('images/choose.png');
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 460px;
+	position: absolute;
+}
+
+#weaponenchant
+{
+	font-size: 12px;
+	font-family: verdana;
+	display: none;
+}
+
+#armorenchant
+{
+	font-size: 12px;
+	font-family: verdana;
+	display: none;
+}
+
+#copyright
+{
+	font-size: 12px;
+	font-family: sherif;
+	padding-top: 68px;
+}
+
+table.player
+{
+	margin-left: 20px;
+}
+
+.char_lvl
+{
+	width: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.char_name
+{
+	width: 300px;
+	color: #FFFFFF;
+}
+
+.char_img
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.shop_pr
+{
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.shop_su
+{
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.char_lvl_t
+{
+	width: 30px;
+	text-align: center;
+	background-color: #2b6580;
+	color: #c3ddea;
+}
+
+.char_name_t
+{
+	width: 300px;
+	background-color: #2b6580;
+	color: #c3ddea;
+}
+
+.choose_chr_t
+{
+	width: 100px;
+	background-color: #2b6580;
+	color: #c3ddea;
+	text-align: center;
+}
+
+.choose_chr
+{
+	color: #c3ddea;
+	text-align: center;
+}
+
+.shop_t
+{
+	background-color: #2b6580;
+	color: #c3ddea;
+}
+
+.char_img_t
+{
+	text-align: center;
+	background-color: #2b6580;
+	color: #c3ddea;
+}
+
+#points
+{
+	padding-top: 95px;
+	text-align: left;
+	margin-left: 200px;
+}
+
+#addp
+{
+	position: absolute;
+	margin-top: 142px;
+	margin-left: 69px;
+}
+
+.buttons
+{
+	border: 1px solid #484747;
+	background: #2b6580;
+	color: #FFFFFF;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.buttons:hover, .buttons:focus
+{
+	border: 1px solid #e5e5e5;
+	background: #2b6580;
+	color: #FFFFFF;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.choose_color
+{
+	color: #FFFFFF;
+	font: 12px arial;
+}
+
+.buttonsoff
+{
+	border: 1px solid #484747;
+	background: #828282;
+	color: #FFFFFF;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+#hello_text
+{
+	position: absolute;
+	margin-top: 68px;
+	margin-left: 220px;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+
+#all
+{
+	width: 400px;
+	height: 400px;
+	background-color: #b6d6d2;
+	border: 1px solid #000;
+}
+
+#b_stat
+{
+	width: 300px;
+	margin-left: 115px;
+	text-align: left;
+	font-size: 12px;
+	font-family: arial;
+	color: #FFFFFF;
+}
+
+.formerror 
+{
+	border: 1px solid red;
+	background-color : #FFCCCC;
+	width: 400px;
+	padding: 5px 0;
+	font-size: 12px;
+	font-family: verdana;
+	margin: 10px 10px 10px 105px;
+	text-align: center;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.login
+{
+	border:1px solid #a4a4a4;
+	background-color: #cdcdcd;
+}
+
+.login:hover
+{
+	border-color: #666666;
+	background-color: #cdcdcd;
+}
+
+.log
+{
+	background-image: url('images/login.png');
+	background-repeat: no-repeat;
+	width: 680px;
+	height: 450px;
+	font-size: 12px;
+	font-family: arial;
+	color: #FFFFFF;
+}
+
+.log2
+{
+	padding-top: 250px;
+	padding-left: 80px;
+}

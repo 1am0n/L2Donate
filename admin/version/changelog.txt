@@ -1,0 +1,14 @@
+/\***********************************/\
+\/  Autorius: Justas a.k.a CFC       \/
+/\  Lineage2 donate sistema  	     /\
+\/  Kontaktai: support@bqart.eu	     \/
+/\  Autoriaus puslapis www.bqart.eu  /\
+\/***********************************\/
+
+Sistemos changelog'as pradetas rasyti nuo 2010.06.15
+
+-- * data 2010.06.15 * -- * versija 1.5.1 * --
+	
+	@ sutvarkytas sistemos idiegimas.
+	@ administracijos zonoje prideta sistemos versijos tikrinimo funkcija.
+	@ atnaujintas administracijos zonos kalbos failas.

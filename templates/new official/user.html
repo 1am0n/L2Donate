@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Donate sistema v1.4</title>
+<link rel='stylesheet' href='{donate_style}' type='text/css'/>
+<script type='text/javascript' src='{static_js}main.js'></script>
+<script type='text/javascript' src='{donate_js_path}/custom.js'></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type='text/javascript' src='{donate_js_path}/slide.js'></script>
+
+<script type="text/javascript">
+
+animatedcollapse.addDiv('weaponenchant', 'fade=1,height=50px,group=enchant')
+animatedcollapse.addDiv('armorenchant', 'fade=1,height=50px,group=enchant')
+
+animatedcollapse.ontoggle=function($, divobj, state){ 
+}
+
+animatedcollapse.init()
+</script>
+
+</head>
+<body>
+<center>
+
+{output}
+
+<!-- pagrindinis vartotoju blokas -->
+<block name="users">
+<div id='box'>
+<div id='donation'>
+</div>
+<div id='header'>
+<div id='addp'>
+{addpoint}
+</div>
+<div id='headtx'>
+<div style='position: absolute; margin-left: 300px; width: 100px;'>{lang}</div>
+{hello} {nick}, {player_points} {points}
+</div>
+<div id='buttons'>
+{logout}
+</div>
+</div>
+<div id='main'>
+
+<table width='655' class='player'>
+<tr><td class='char_img_t' width='5'>{player_nr}</td><td class='char_name_t'>{player_name}</td><td class='choose_chr_t'>{choose_char}</td><td class='char_lvl_t'>{player_lvl}</td></tr>
+<loop name="player">
+<tr ><td class='char_img' width='5'>{player.char_img}</td><td class='char_name'>{player.char_name}</td><td class='choose_chr'>{player.char_choose}</td><td class='char_lvl'>{player.char_lvl}</td></tr>
+</loop name="player">
+</table>
+
+</div>
+<div id='footer'>
+</div>
+</div>
+</block name="users">
+
+<!-- tasku papildymo blokas -->
+<block name="sms_method">
+<table class='tbl1' align='center'>
+<tr><td align='center' width='150'>{sms_txt}</td><td align='center' width='100'>{sms_price}</td><td align='center' width='100'>{sms_number}</td><td align='center' width='100'>{sms_points}</td></tr>
+<loop name="keywords">
+<tr><td align='center' width='150'>{keywords.keyword} {nick}</td><td align='center' width='100'>{keywords.price} LT</td><td align='center' width='100'>{keywords.number}</td><td align='center' width='100'>{keywords.sms_points}</td></tr>
+</loop name="keywords">
+<tr><td></td></tr>
+</table>
+</block name="sms_method">
+
+<!-- parduotuves / pliusinimo pasirinkimo blokas -->
+<block name="shop">
+<div id='box'>
+<div id='donation'>
+</div>
+<div id='header'>
+<div id='addp'>
+{addpoint}
+</div>
+<div id='headtx'>
+<div style='position: absolute; margin-left: 300px; width: 100px;'>{lang}</div>
+{hello} {nick}, {player_points} {points}
+</div>
+<div id='buttons'>
+{back} {logout}
+</div>
+</div>
+<div id='main'>
+
+<table width='654' class='player'>
+<tr><td class='char_img_t' width='5'>{choose_nr}</td><td class='char_name_t'>{choose_name}</td></tr>
+<loop name="item_choose">
+<tr><td class='char_img' width='5'>1</td><td class='char_name'>{item_choose.shop}</td></tr>
+<tr><td class='char_img' width='5'>2</td><td class='char_name'>{item_choose.enchant}</td></tr>
+</loop name="item_choose">
+</table>
+
+</div>
+<div id='footer'>
+</div>
+</div>
+</block name="shop">
+
+<!-- parduotuves blokas -->
+<block name="shopr">
+<div id='box'>
+<div id='donation'>
+</div>
+<div id='header'>
+<div id='addp'>
+{addpoint}
+</div>
+<div id='headtx'>
+<div style='position: absolute; margin-left: 300px; width: 100px;'>{lang}</div>
+{hello} {nick}, {player_points} {points}
+</div>
+<div id='buttons'>
+{back} {char_choose} {logout}
+</div>
+</div>
+<div id='main'>
+
+<table width='654' class='player'>
+<tr><td class='shop_t'>{prod_name}</td><td class='shop_t'>{prod_price}</td><td class='shop_t'>{prod_sum}</td></tr>
+<loop name="shop_shop">
+<tr>
+<td>{shop_shop.buy_link}</td>
+<td class='shop_pr'>{shop_shop.item_price}</td>
+<td class='shop_su'>{shop_shop.item_sum}</td>
+</tr>
+</loop name="shop_shop">
+</table>
+
+</div>
+<div id='footer'>
+</div>
+</div>
+</block name="shopr">
+
+<!-- prekiu pirkimo blokas -->
+<block name="buying">
+<div id='box'>
+<div id='donation'>
+</div>
+<div id='header'>
+<div id='addp'>
+{addpoint}
+</div>
+<div id='headtx'>
+<div style='position: absolute; margin-left: 300px; width: 100px;'>{lang}</div>
+{hello} {nick}, {player_points} {points}
+</div>
+<div id='buttons'>
+{back} {char_choose} {logout}
+</div>
+</div>
+<div id='main'>
+
+<div id='b_stat'>
+<loop name="buy_info">
+{prod_name} {buy_info.i_name}<br />
+{prod_price} {buy_info.i_price}<br />
+<br />
+{buy_info.formul}
+<br />
+<br />
+{buy_info.buy_link}
+</loop name="buy_info">
+</div>
+
+</div>
+<div id='footer'>
+</div>
+</div>
+</block name="buying">
+
+<!-- daiktu pliusinimo blokas -->
+<block name="enchant">
+<div id='box'>
+<div id='donation'>
+</div>
+<div id='header'>
+<div id='addp'>
+{addpoint}
+</div>
+<div id='headtx'>
+<div style='position: absolute; margin-left: 300px; width: 100px;'>{lang}</div>
+{hello} {nick}, {player_points} {points}
+</div>
+<div id='buttons'>
+{back} {char_choose} {logout}
+</div>
+</div>
+<div id='main'>
+
+<center>
+<input type='button' class='buttons' rel="toggle[weaponenchant]" onclick="javascript:animatedcollapse.toggle('weaponenchant')" value='{weapons}'><br />
+<div id="weaponenchant">
+<loop name="cwitem">{cwitem.link}</loop name="cwitem">
+</div>
+<br />
+<input type='button' class='buttons' rel="toggle[armorenchant]" onclick="javascript:animatedcollapse.toggle('armorenchant')" value='{armors}'>
+<div id="armorenchant">
+<loop name="caitem">{caitem.link}</loop name="caitem">
+</div>
+</center>
+
+</div>
+<div id='footer'>
+</div>
+</div>
+</block name="enchant">
+
+</div>
+</div>
+</div>
+</body>
+</html>

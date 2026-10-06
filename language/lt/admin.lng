@@ -1,0 +1,239 @@
+msgid "login/button/password"
+msgstr "Slaptažodis:"
+
+msgid "login/button/username"
+msgstr "Slapyvardis:"
+
+msgid "main/panel_1_title/menu"
+msgstr "Meniu"
+
+msgid "login/button/login"
+msgstr "Prisijungti"
+
+msgid "main/button/home"
+msgstr "Pagrindinis"
+
+msgid "main/button/config"
+msgstr "Nustatymai"
+
+msgid "main/button/pay"
+msgstr "Apmokėjimai"
+
+msgid "main/button/other"
+msgstr "Kita"
+
+msgid "main/button/main_config"
+msgstr "Pagrindiniai nustatymai"
+
+msgid "main/button/product_config"
+msgstr "Prekių nustatymai"
+
+msgid "main/button/user_config"
+msgstr "Vartotojų nustatymai"
+
+msgid "main/button/mikro"
+msgstr "SMS paslauga"
+
+msgid "main/button/logout"
+msgstr "Atsijungti"
+
+msgid "main/logout/message"
+msgstr "Ar tikrai norite atsijungti?"
+
+/***buttons***/
+
+msgid "button/submit"
+msgstr "Patvirtinti"
+
+msgid "button/add_points"
+msgstr "Pridėti taškų"
+
+msgid "button/remove_points"
+msgstr "Atimti taškus"
+
+msgid "button/repair"
+msgstr "Taisyti"
+
+msgid "button/delete"
+msgstr "Ištrinti"
+
+/***buttons end***/
+
+/***main config***/
+
+msgid "mainc/input_title/language"
+msgstr "Kalba:"
+
+msgid "mainc/input_title/theme"
+msgstr "Dizainas:"
+
+msgid "mainc/input_title/buy_only_off"
+msgstr "Pirkimas tik atsijungus:"
+
+msgid "mainc/input_title/user_lng_change"
+msgstr "Kalbos keitimas:"
+
+msgid "mainc/input_title/mikro"
+msgstr "SMS paslauga:"
+
+msgid "mainc/input_title/weapon_max"
+msgstr "Ginklų max. plius:"
+
+msgid "mainc/input_title/armor_max"
+msgstr "Šarvų max. plius:"
+
+msgid "mainc/input_title/one_plius_price"
+msgstr "Vieno pliuso kaina:"
+
+msgid "mainc/input_title/noblesse_price"
+msgstr "Noblesse kaina:"
+
+msgid "mainc/input_title/255_recommends_price"
+msgstr "255 rekomendacijų kaina:"
+
+/***main config end***/
+
+/***product config***/
+
+msgid "product/input_title/item_name"
+msgstr "Prekės pavadinimas:"
+
+msgid "product/input_title/item_id"
+msgstr "Prekės ID:"
+
+msgid "product/input_title/item_price"
+msgstr "Prekės kaina:"
+
+msgid "product/input_title/item_sum"
+msgstr "Prekių kiekis:"
+
+msgid "product/list_name/item_name"
+msgstr "Prekės pavadinimas"
+
+msgid "product/list_name/item_id"
+msgstr "Prekės ID"
+
+msgid "product/list_name/item_price"
+msgstr "Prekės kaina"
+
+msgid "product/list_name/item_sum"
+msgstr "Prekių kiekis"
+
+/***product config end***/
+
+/***user config***/
+
+msgid "user/list_title/acc_name"
+msgstr "Acc slapyvardis"
+
+msgid "user/list_title/points"
+msgstr "Taškai"
+
+msgid "user/list_title/last_visit"
+msgstr "Paskutinis apsilankymas:"
+
+msgid "user/list_title/ip_address"
+msgstr "IP adresas:"
+
+msgid "user/input_title/add_points_sum"
+msgstr "Pridedamų taškų suma:"
+
+msgid "user/input_title/remove_points_sum"
+msgstr "Atimamų taškų suma:"
+
+/***user config end***/
+
+/***SMS config***/
+
+msgid "mikro/input_title/sms_keyword"
+msgstr "SMS raktažodis:"
+
+msgid "mikro/input_title/sms_price"
+msgstr "SMS kaina:"
+
+msgid "mikro/input_title/sms_number"
+msgstr "SMS numeris:"
+
+msgid "mikro/input_title/sms_get_points"
+msgstr "Taškai už SMS:"
+
+msgid "mikro/list_title/sms_keyword"
+msgstr "SMS raktažodis"
+
+msgid "mikro/list_title/sms_price"
+msgstr "SMS kaina"
+
+msgid "mikro/list_title/sms_number"
+msgstr "SMS numeris"
+
+msgid "mikro/list_title/sms_get_points"
+msgstr "SMS taškai"
+
+/***SMS config end***/
+
+/***errors & success***/
+
+	msgid "login/bad_username_or_password"
+	msgstr "Neteisingas slapyvardis arba slaptažodis"
+	
+	msgid "all/empty_fields"
+	msgstr "Būtina užpildyti visus laukelius"
+	
+	msgid "all/only_numeric"
+	msgstr "Jūs įvedėte kitus simbolius ten kur leidžiami tik skaičiai"
+	
+	msgid "mainc/update/success"
+	msgstr "Nustatymai išsaugoti"
+	
+	msgid "product/add/success"
+	msgstr "Prekė pridėta"
+	
+	msgid "product/update/success"
+	msgstr "Prekės informacija atnaujinta"
+	
+	msgid "product/no_products"
+	msgstr "Prekių nėra"
+	
+	msgid "user/no_users"
+	msgstr "Vartotojų nėra"
+	
+	msgid "user/points_added"
+	msgstr "Taškai pridėti"
+	
+	msgid "user/points_removed"
+	msgstr "Taškai pašalinti"
+	
+	msgid "user/bad_remove_points_sum"
+	msgstr "Bloga atimamų taškų suma"
+
+	msgid "mikro/success"
+	msgstr "Raktažodis pridėtas"
+	
+	msgid "mikro/no_sms"
+	msgstr "Nėra sukurtų SMS"
+	
+	msgid "mikro/update/success"
+	msgstr "SMS informacija atnaujinta"
+	
+	msgid "not_admin"
+	msgstr "Tu nesi administratorius"
+	
+/***errors & success***/
+
+/***version***/
+
+	msgid "versionIsLatest"
+	msgstr "Sistemos atnaujinimų nėra."
+	
+	msgid "badConnToVersionServer"
+	msgstr "Versijos tikrinimo serveris išjungtas, arba jūs neturite priėimo prie interneto."
+	
+	msgid "versionUpdateAvalaible"
+	msgstr "Jūs naudojate ne naujausią sistemos versiją ! "
+	
+	msgid "downloadUpdate"
+	msgstr "Atsisiūsti naujausią atnaujinimo pakuotę"
+
+/***version***/
+
+

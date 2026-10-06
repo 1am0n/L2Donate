@@ -1,0 +1,189 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+a 
+{
+color: #3289c0;
+text-decoration: none;
+}
+
+a:hover 
+{
+color: #66b4e5;
+text-decoration: none;
+}
+
+form {
+	background:#fff;
+	padding:1em;
+}
+
+fieldset div {
+	margin:0.3em 0;
+	clear:both;
+}
+
+.form_cl {
+	margin:1em;
+	width:27em;
+}
+
+.info_img
+{
+position: absolute;
+margin-left: 4px;
+margin-top: 1px;
+border: none;
+cursor: pointer;
+}
+
+.information
+{
+font: 12px arial;
+text-align: left;
+}
+
+label {
+	float:left;
+	width:8em;
+	text-align:right;
+	margin-right:1em;
+}
+
+legend {
+	color:#0b77b7;
+	font-size:1.2em;
+}
+
+legend span {
+	width:10em;
+	text-align:right;
+}
+
+.title
+{
+	color: #ddd;
+}
+
+.all
+{
+	width: 400px;
+	padding: 20px;
+}
+
+.rules
+{
+	width: 600px;
+	background-color: #f9f4d1;
+	color: #313131;
+	font-size: 12px;
+	font-family: verdana;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.checkinfo
+{
+	color: #313131;
+	font-size: 12px;
+	font-family: verdana;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.db_tables
+{
+	width: 600px;
+	background-color: #f9f4d1;
+	color: #313131;
+	font-size: 12px;
+	font-family: verdana;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.finish
+{
+	width: 600px;
+	background-color: #f9f4d1;
+	color: #313131;
+	font-size: 12px;
+	font-family: verdana;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.install {
+	padding:0.15em;
+	width:12em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font: 0.85em verdana;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+.install:hover, .install:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+}
+
+fieldset {
+	border:1px solid #ddd;
+	padding:0 0.5em 0.5em;
+}
+
+input.default {
+	color:#bbb;
+}
+
+.submit_off {
+	border:1px solid #ff7d7d;
+	background-color: #FFCCCC;
+	cursor:pointer !important; cursor:hand;
+	padding:0.15em;
+	width:12em;
+	font: 0.85em verdana;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.submit_off:hover
+{
+	border:1px solid #ff3f3f;
+	background-color: #FFCCCC;
+}
+
+.submit_on {
+	border:1px solid #94cb73;
+	background-color: #c7f1ad;
+	cursor:pointer !important; cursor:hand;
+	padding:0.15em;
+	width:12em;
+	font: 0.85em verdana;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.submit_on:hover
+{
+	border:1px solid #50ab19;
+	background-color: #c7f1ad;
+}
+
+.formerror {
+	border: 1px solid red;
+	background-color : #FFCCCC;
+	font-size: 12px;
+	font-family: verdana;
+	padding: 5px 5px;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.formerror li
+{
+	list-style: none;
+}

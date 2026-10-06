@@ -1,0 +1,8 @@
+<Files ~ "^\.ht">
+Order allow,deny
+Deny from all
+</Files>
+
+DirectoryIndex index.php index.html index.htm index.html
+
+Options -Indexes 

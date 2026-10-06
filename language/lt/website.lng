@@ -1,0 +1,155 @@
+msgid "username"
+msgstr "Slapyvardis"
+
+msgid "password"
+msgstr "Slaptažodis"
+
+msgid "loggin_in"
+msgstr "Prisijungti"
+
+/* members txt */
+
+msgid "hello_txt"
+msgstr "Sveikas(-a)"
+
+msgid "gamer_points"
+msgstr "jūsų taškai: "
+
+msgid "gamer_number"
+msgstr "#"
+
+msgid "gamer_name"
+msgstr "Vardas"
+
+msgid "gamer_lvl"
+msgstr "LVL"
+
+msgid "choose_nr"
+msgstr "#"
+
+msgid "choose_name"
+msgstr "Pavadinimas"
+
+msgid "logout"
+msgstr "Atsijungti"
+
+msgid "logout_confirm"
+msgstr "Ar tikrai norite atsijungti?"
+
+msgid "add_points"
+msgstr "Taškų pridėjimas"
+
+msgid "back"
+msgstr "Atgal"
+
+msgid "shop"
+msgstr "Parduotuvė"
+
+msgid "enchant"
+msgstr "Pliusinimas"
+
+msgid "buy"
+msgstr "Pirkti"
+
+msgid "buy_closed"
+msgstr "Neužtenka taškų daikto įsigijimui"
+
+msgid "product_name"
+msgstr "Prekės pavadinimas"
+
+msgid "product_price"
+msgstr "Prekės kaina"
+
+msgid "product_sum"
+msgstr "Prekių kiekis"
+
+msgid "weapons"
+msgstr "Ginklai"
+
+msgid "armors"
+msgstr "Šarvai"
+
+msgid "char_rechoose"
+msgstr "Veikėjo pasirinkimas"
+
+msgid "choose_chr"
+msgstr "#"
+
+/****enchant****/
+
+msgid "plus_one"
+msgstr "+1"
+
+msgid "choose_weapon"
+msgstr "Pasirinkite ginklą"
+
+msgid "choose_armor"
+msgstr "Pasirinkite šarvus"
+
+/****enchant****/
+
+/****shop****/
+
+msgid "product_name"
+msgstr "Prekės pavadinimas:"
+
+msgid "product_price"
+msgstr "Prekės kaina:"
+
+msgid "lack_points"
+msgstr "Trūksta taškų:"
+
+msgid "remain_points"
+msgstr "Lieka taškų:"
+
+msgid "product_buy_success"
+msgstr "Prekė sėkmingai nupirkta"
+
+/***shop***/
+
+/***mikro***/
+
+msgid "mikro/sms_text"
+msgstr "Žinutės tekstas"
+
+msgid "mikro/sms_price"
+msgstr "Kaina"
+
+msgid "mikro/sms_number"
+msgstr "Numeris"
+
+msgid "mikro/sms_points"
+msgstr "Taškai už žinutę"
+
+/***mikro end***/
+
+/***errors & success***/
+
+msgid "empty_fields"
+msgstr "Būtina užpildyti visus laukelius"
+
+msgid "bad_login"
+msgstr "Netinkami prisijungimo duomenys"
+
+msgid "enchant_c"
+msgstr "Nepasirinktas ginklas"
+
+msgid "enchant_ca"
+msgstr "Nepasirinkti šarvai"
+
+msgid "enchant_m"
+msgstr "Neužtenka turimų taškų"
+
+msgid "gamer_online"
+msgstr "Norėdami apsipirkti ar pliusinti daiktus turite būti atsijungę iš žaidimo"
+
+msgid "mikro/no_mikro"
+msgstr "Kolkas nėra sukurtų SMS žinučių"
+
+msgid "mikro/mikro_off"
+msgstr "Šis sąskaitos papildymo būdas išjungtas"
+
+msgid "product/no-product"
+msgstr "Kolkas nėra jokių prekių"
+
+/***errors & success end***/

@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Donate sistema v1.4</title>
+<link rel='stylesheet' href='{donate_style}' type='text/css'/>
+<script type='text/javascript' src='{donate_static_js}'></script>
+</head>
+<body>
+<center>
+
+<div style='position: absolute; margin-left: 510px; margin-top: 410px;'>	
+{lang}
+</div>
+<div class='log'>
+<div class='log2'>
+<form action='{action}' method='post'>
+<input type='hidden' name='submit'>
+
+<label for='login'>{username}</label> <input type='text' name='login' id='login' class='buttons'>
+<br>
+<br>
+<label for='password'>{password}</label> <input type='password' name='password' id='password' class='buttons'>
+<div style='margin-top: 10px; margin-left: 10px;'>
+<input type='submit' name='jungtis' class='buttons' value='{login_in}'>
+</div>
+</form>
+</div>
+<!-- autorines teises priklauso ... butina palikti ! -->
+<div style='color: #aeaeae; font-size: 12px; font-family: verdana; padding-top: 95px; text-align: left; margin-left: 180px;'>Autorinės teisės priklauso - <a href='http://www.l2support.lt'>CFC</a> - 2010m.</div>
+<!-- autorines teises priklauso ... butina palikti ! -->
+</div>
+		
+<loop name="error">
+<div class='formerror'>
+{error.error}
+</div>
+</loop name="error">
+</body>
+</html>
+		
